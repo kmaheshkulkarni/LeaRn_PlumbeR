@@ -1,0 +1,13 @@
+# How to Connect your Local R Project With Github Repositary
+
+#1. Create Your Github repositary
+#2. Create Your R project and select git repo option. (It will be seen when you create the R Projet)
+#3. Run follwing commands
+
+$ git remote add origin https://github.com/bensoltoff/myrepo.git
+$ git config --global credential.helper wincred
+$ echo "adding a line" >> README.md
+$ git add -A
+$ git commit -m "A commit from my local computer"
+$ git push -u origin master
+$ git push

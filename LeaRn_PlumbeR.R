@@ -1,4 +1,4 @@
-# plumber.R
+# LeaRn_PlumbeR.R
 
 #' Echo the parameter that was sent in
 #' @param msg The message to echo back.
@@ -24,3 +24,11 @@ function(spec){
   plot(myData$Sepal.Length, myData$Petal.Length,
        main=title, xlab="Sepal Length", ylab="Petal Length")
 }
+
+LP<- plumber::plumb()
+
+# Run the below commands on Console
+
+# LP<- plumber::plumb("LeaRn_PlumbeR.R.R")
+# pp$run(host = '0.0.0.0',port = 3644)
+
