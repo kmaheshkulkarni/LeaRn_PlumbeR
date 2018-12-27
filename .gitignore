@@ -26,6 +26,3 @@ vignettes/*.pdf
 rsconnect/
 packrat/lib*/
 .Rproj.user
-Learn_PlumbeR.Rmd
-Future.R
-LeaRn_PlumbeR.R
