@@ -1,0 +1,13 @@
+git remote -v
+git fetch origin-push
+git merge origin-push/master master
+git pull origin-push master
+
+# push my local changes to the origin remote's master branch
+git push origin master
+git pull
+git fetch
+
+git remote rename happygit hg
+
+git remote set-url happygit git@github.com:RAnalytix/LeaRn_PlumbeR.git
